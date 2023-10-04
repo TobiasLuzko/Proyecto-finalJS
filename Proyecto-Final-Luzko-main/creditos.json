@@ -1,0 +1,17 @@
+[
+    {
+      "monto": 5000,
+      "tasa": 6.5,
+      "plazo": 24,
+      "total": 5650,
+      "cuotaMensual": 235.42
+    },
+    {
+      "monto": 10000,
+      "tasa": 5.0,
+      "plazo": 36,
+      "total": 10850,
+      "cuotaMensual": 301.39
+    }
+  ]
+  

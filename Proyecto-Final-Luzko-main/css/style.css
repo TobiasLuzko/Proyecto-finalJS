@@ -1,0 +1,87 @@
+ /* Estilos CSS */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container-fluid
+{
+  background-color: #4c91ec;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 5px;
+}
+
+.center-button {
+  display: block; 
+  margin: 0 auto;
+}
+
+button {
+  padding: 9px 20px;
+  background-color: #4c77af;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+main {
+  text-align: center;
+  padding: 30px;
+}
+  
+
+ /* Estilos básicos para el footer y las secciones */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4c91ec;
+  color: white;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Estilos adicionales */
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+
+

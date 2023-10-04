@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon/favicon-16x16.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Simulador de creditos</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="postbanner">
+      <h1>Solicita un prestamo ! </h1>
+      <p>¡Haz realidad tus sueños hoy mismo con nuestro préstamo personal a medida! Entendemos que a veces necesitas un impulso financiero para alcanzar tus metas. Ya sea que estés planeando un emocionante viaje, renovando tu hogar o invirtiendo en tu educación, nuestro préstamo está diseñado para brindarte la flexibilidad y el apoyo que necesitas.
+    <br>
+    <br>
+      Con tasas competitivas y términos flexibles de pago, estamos aquí para simplificar el proceso y ofrecerte una experiencia sin complicaciones. Nuestro equipo de expertos financieros está listo para guiarte en cada paso del camino, asegurándose de que obtengas la mejor solución para tus necesidades.
+     <br>   
+     <br>
+      No esperes más para convertir tus proyectos en realidad. Solicita tu préstamo con nosotros y descubre cómo podemos ayudarte a alcanzar tus metas financieras. ¡Tu futuro está a solo un paso de distancia!</p>
+    </section>
+  </main>
+
+  <h1>Simulador de Créditos</h1>
+
+  <div class="form-group">
+    <label for="monto">Monto del crédito:</label>
+    <input type="number" id="monto" min="0" step="1000">
+  </div>
+
+  <div class="form-group">
+    <label for="tasa">Tasa de interés (%):</label>
+    <input type="number" id="tasa" min="0" step="0.1">
+  </div>
+
+  <div class="form-group">
+    <label for="plazo">Plazo (meses):</label> 
+    <input type="number" id="plazo" min="0">
+  </div>
+
+  <button class="center-button"  onclick="calcular()">Calcular</button>
+
+  <div id="resultado"></div>
+
+<footer>
+  <div class="footer-section">
+      <h3>Direccion</h3>
+      <p>Independencia 1899 , Recoleta , Bs As.</p>
+  </div>
+  <div class="footer-section">
+      <h3>Telofono</h3>
+      <p>+54 2226-539030</p>
+  </div>
+  <div class="footer-section">
+      <h3>Email</h3>
+      <p>info@ejemplo.com</p>
+  </div>
+</footer>
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>

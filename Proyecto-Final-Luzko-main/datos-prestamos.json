@@ -1,0 +1,20 @@
+[
+    {
+      "nombre": "Préstamo Personal",
+      "montoMaximo": 10000,
+      "tasa": 8,
+      "plazoMaximo": 36
+    },
+    {
+      "nombre": "Préstamo para Automóvil",
+      "montoMaximo": 25000,
+      "tasa": 5.5,
+      "plazoMaximo": 60
+    },
+    {
+      "nombre": "Préstamo Hipotecario",
+      "montoMaximo": 200000,
+      "tasa": 3.75,
+      "plazoMaximo": 240
+    }
+  ]
